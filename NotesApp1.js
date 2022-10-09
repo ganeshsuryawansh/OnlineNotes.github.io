@@ -41,7 +41,14 @@ addBtn.addEventListener("click", function (e) {
 
     let message = document.getElementById('message');
     message.innerHTML = `<div class="alert alert-danger alert-dismissible fade show" role="alert">
-    <strong>Alert !</strong> Wright your notes before add....
+    <strong>Alert !</strong> Write your notes before add....
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>`
+  }
+  else if (addTxt.value === " ") {
+    let message = document.getElementById('message');
+    message.innerHTML = `<div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <strong>Alert !</strong> Don't allow blank spaces....
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>`
   }
