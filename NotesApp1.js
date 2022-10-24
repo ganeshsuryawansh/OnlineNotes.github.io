@@ -32,6 +32,16 @@ Ucase.addEventListener("click", function (e) {
 
 })
 
+// character counter
+let Carcount =document.getElementById("Carcount");
+Carcount.addEventListener("click", function(e){
+  let Car = document.getElementById("addTxt").value.length;
+  //console.log(Car)
+  document.getElementById("countshow").innerHTML=Car;
+
+})
+
+
 // If user adds a note, add it to the localStorage
 let addBtn = document.getElementById("addBtn");
 addBtn.addEventListener("click", function (e) {

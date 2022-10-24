@@ -11,21 +11,21 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <link rel="shortcut icon" href="images\notes-icon-png_265236.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="download.png" type="image/x-icon">
     <style>
         body {
-            background-color: rgb(155, 199, 249);
+            background-color:rgb(187, 186, 186);
             color: rgb(0, 0, 0);
         }
 
         .mainb {
-            background-color: rgb(155, 199, 249);
+            background-color:white;
             color: rgb(0, 0, 0);
         }
 
         .txt {
             color: rgb(0, 0, 0);
-            background-color: rgb(196, 221, 255);
+            background-color:white;
         }
 
         .cont {
@@ -63,7 +63,7 @@
             <form class="form-inline my-2 my-lg-0">
                 &nbsp;<input class="form-control mr-sm-2" id="searchTxt" type="search" placeholder="Search"
                     aria-label="Search">
-                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+                <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
     </nav>
@@ -91,7 +91,11 @@
                 <button class="btn btn-warning mx-2 my-2" id="cleartxt">Clear Text</button>
                 <button class="btn btn-warning mx-2 my-2" id="Lcase">Lowercase</button>
                 <button class="btn btn-warning mx-2 my-2" id="Ucase">Uppercase</button>
+                <button class="btn btn-warning mx-2 my-2" id="Carcount">Carcount</button>
 
+            </div>
+            <div class="container" >
+                <h5>All character count:<p id="countshow"> </p></h5>
             </div>
         </div>
         <hr>
@@ -100,7 +104,7 @@
         <div id="notes" class="row container-fluid"> </div>
     </div>
 
-    <footer class="text-center text-black w-100 my-5" style="background-color:rgb(155, 199, 249);">
+    <footer class="text-center text-black w-100 my-5" style="background-color:rgb(155, 155, 155);">
         <!-- Grid container -->
         <div class="container pt-4">
             <!-- Section: Social media -->
